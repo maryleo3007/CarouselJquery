@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+#slide{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+#slide ul{
+  position: relative;
+  margin: auto;
+  height: auto;
+  width: 500%;
+}
+#slide ul li{
+  float: left;
+  width: 20%;
+}
+#slide ul li img{
+  width: 100%;
+  height: 200px;
+}
+#slide ul li .figcaption{
+  position: relative;
+  width: 100%;
+  top: -85px;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+}
+#slide ul li h1{
+  position: relative;
+  width: 100%;
+  top: -85px;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+}
+#slide ul li h1{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 0;
+}
+#slide ul li h3{
+  background: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+#indicator{
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  margin: auto;
+  text-align: center;
+  top: -60px;
+}
+#indicator li{
+  display: inline-block;
+  margin: 0px 5px;
+  opacity: 0.5;
+  color: #fff;
+  text-shadow: 0px 0px 5px #333;
+}
+.button-left{
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  font-size: 2em;
+  cursor: pointer;
+
+}
+.button-right{
+  position:absolute;
+  top: 40%;
+  right: 2%;
+  font-size: 2em;
+  cursor: pointer;
+}
