@@ -62,6 +62,7 @@
   opacity: 0.5;
   color: #fff;
   text-shadow: 0px 0px 5px #333;
+  cursor: pointer;
 }
 .button-left{
   position: absolute;
@@ -69,7 +70,7 @@
   left: 2%;
   font-size: 2em;
   cursor: pointer;
-
+  color: #2b2b2b;
 }
 .button-right{
   position:absolute;
@@ -77,4 +78,5 @@
   right: 2%;
   font-size: 2em;
   cursor: pointer;
+  color: #2b2b2b;
 }
